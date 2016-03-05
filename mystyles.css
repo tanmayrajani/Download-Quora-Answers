@@ -1,7 +1,16 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 @media print{
-	body{ font-family: 'Roboto Slab'; font-weight: 400;}
-	.SiteHeader, .ContentPageFeed, .ActionBar.Question,.ActionBar.Post, .Answer.ActionBar, .ObjectCard-body, .ObjectCard-footer ,.inline_editor_create ,.action_item.overflow ,.InteractionModeBanner ,.ErrorBanner,.AddQuestionDialogButton,.AddQuestionFromHeaderDialogButton{	display: none;	}
-	.Standard2ColLayout:after{	content: '';}
-	.qlogo{	height: 200px; width: 200px; font: bold; font-size: 2.5em; background-color: #FFFFFF; color: #b42626;}
+    body{
+        font-family: Georgia, serif;
+        font-weight: 400;
+    }
+    .QuestionRelatedAnswers, .AnswerPageProfileSnippet, .SiteHeader, .ContentPageFeed, .view_other_answers_link, .user_follow_button, .subscribe_button, .ActionBar.Question,.ActionBar.Post, .Answer.ActionBar, .ObjectCard-body, .ObjectCard-footer ,.action_item.overflow ,.InteractionModeBanner ,.ErrorBanner,.AddQuestionDialogButton,.AddQuestionFromHeaderDialogButton{display: none;}
+    .QuestionArea{ font-family: Helvetica, serif; }
+    .glogo{
+        height: 200px;
+        width: 200px;
+        font-weight: 700;
+        font-size: 2.5em;
+        background-color: #FFFFFF;
+        color: #b42626;
+    }
 }
